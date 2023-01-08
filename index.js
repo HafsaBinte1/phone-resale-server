@@ -94,7 +94,7 @@ run().catch(console.log)
 
 
 app.get('/', (req, res) => {
-    res.send('Phone  world server running')
+    res.send('Phone   server running')
 });
 
 app.listen(port, () => {
